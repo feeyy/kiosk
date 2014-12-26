@@ -1,6 +1,0 @@
-[2014-11-03 17:52:17.167][DService.exe][5416]---打开键盘仿真---
-[2014-11-03 17:52:17.212][DService.exe][5416]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
-[2014-11-03 17:55:58.402][DService.exe][5416]---打开键盘仿真---
-[2014-11-03 17:55:58.403][DService.exe][5416]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
-[2014-11-03 17:57:40.985][DService.exe][5416]---打开键盘仿真---
-[2014-11-03 17:57:40.985][DService.exe][5416]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
