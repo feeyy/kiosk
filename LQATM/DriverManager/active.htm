@@ -1,0 +1,376 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>多媒体支付平台硬件测试程序</title>
+<script> 
+//*******************************************************************************
+//_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+//页面加载时初始化操作
+//_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+//*******************************************************************************
+  
+  window.onload =  
+  function(){   ///加载时初始化串口参数
+             	//alert("加载测试");  
+ 
+              
+
+  	    }   
+</script> 
+
+
+ 
+<SCRIPT LANGUAGE='JavaScript' FOR="DriverManager" EVENT="ReturnBankCardNoInfoEvent(m_CardNumber, m_ResultIndex, m_ResultDescription)"> 
+
+/*银行读卡器返回消息
+m_CardNumber：卡号,
+m_ResultIndex：返回结果索引,
+m_ResultDescription：返回结果描述
+
+返回结果：
+1.成功，返回卡号结 m_CardNumber
+0.取消操作
+-1.操作超时
+-2.读卡失败
+*/  
+if(m_ResultIndex=="1")
+{
+document.all.StateResult.value=m_ResultDescription+":"+m_CardNumber;
+document.all.BankCardNo.value=m_CardNumber;
+
+}
+else
+{
+document.all.StateResult.value=m_ResultDescription;
+}
+</SCRIPT>
+	
+
+<SCRIPT LANGUAGE='JavaScript' FOR="DriverManager" EVENT="DeviceState(m_StateString)"> 
+<!--设备状态消息-->   
+//document.all.StateResult.value=m_StateString;
+</SCRIPT>
+				   		 
+<SCRIPT LANGUAGE='JavaScript' FOR="DriverManager" EVENT="EvnState(m_ErrorCode,m_Description)"> 
+<!--设备状态消息-->  
+document.all.StateResult.value=m_Description;
+</SCRIPT>
+
+
+
+<SCRIPT LANGUAGE='JavaScript' FOR="DriverManager" EVENT="KeyBoardInputEvnt(m_InputType, m_InputValue,m_FunctionValue)"> 
+/*
+键盘输入事件处理：
+参数：
+ m_InputType  		输入类型，-1串口打开失败 ，1表示数字，2表示功能如（确认）,3表示密码键盘打开成功，4密码键盘打开失败，5密码键盘关闭成功，6密码键盘关闭失败
+ m_InputValue 		输入内容：如果类型为1时表示字符串如0，-9；
+ m_FunctionValue 	输入是功能键值：确认键是13
+ 注：输入内容会每次都会发上为的。
+
+*/
+if(m_InputType==-1)
+document.all.StateResult.value="表示密码键盘串口打开失败";
+if(m_InputType==3)
+document.all.StateResult.value="表示密码键盘打开成功";
+
+if(m_InputType==4)
+document.all.StateResult.value="密码键盘打开失败";
+
+if(m_InputType==5)
+document.all.StateResult.value="密码键盘关闭成功";
+
+if(m_InputType==6)
+document.all.StateResult.value="密码键盘关闭失败";
+
+
+document.all.KeyBoardInput.value=m_InputValue;
+
+if(m_InputType==2)
+{
+	if(m_FunctionValue=="13")
+	{
+	document.all.StateResult.value="输入完成！";
+	}
+	else
+	{
+	document.all.StateResult.value=m_FunctionValue;
+	}
+}
+</SCRIPT>
+
+<SCRIPT LANGUAGE='JavaScript' FOR="DriverManager" EVENT="ReturnPersonIDInfoEvent(m_UserName, m_Sex, m_Nation, m_Birthday, m_Address, m_IdNo, m_Issuer, m_BeginDate,  m_EndDate,m_Result)"> 
+<!--身份证读取结果m_UserName:姓名, m_Sex：性别, m_Nation：民族, m_Birthday：生日, m_Address：住址, m_IdNo：身份证号, m_Issuer:签发机关, m_BeginDate:有效期限, m_EndDate,m_Result：返回结果1成功 0失败-->  
+
+if(m_Result=="1")
+{
+document.all.StateResult.value="读取身份证信息成功！";
+document.all.USERNAME.value=m_UserName;
+document.all.PersonIDNumber.value=m_IdNo;
+document.all.SEX.value=m_Sex;
+}
+if(m_Result=="0")
+{
+document.all.StateResult.value="等待读取身份证信息中....！请刷卡！！！";
+document.all.USERNAME.value="";
+document.all.PersonIDNumber.value="";
+document.all.SEX.value="";
+}
+if(m_Result=="-1")
+{
+document.all.StateResult.value="读取身份证信息超时了！";
+document.all.USERNAME.value="";
+document.all.PersonIDNumber.value="";
+document.all.SEX.value="";
+}
+
+if(m_Result=="-2")
+{
+document.all.StateResult.value="您已经取消 读取身份证信息！！";
+document.all.USERNAME.value="";
+document.all.PersonIDNumber.value="";
+document.all.SEX.value="";
+}
+</SCRIPT>
+
+
+
+<SCRIPT LANGUAGE='JavaScript' FOR="DriverManager" EVENT="L_OnCapture(m_result, m_Decription, m_FileName, m_Template, m_UserNameID)"> 
+<!--消息源型L_OnCapture(LONG m_result, LPCTSTR m_Decription, LPCTSTR m_FileName, LPCTSTR m_Template, LPCTSTR m_UserNameID) --->
+/*
+功能说明：登记指纹消息
+m_result      ：验证返回结果0 失败，1成功
+m_Decription  ：结果描述，与m_ResultIndex 对应的。
+m_FileName    ：图像文件名称
+m_Template    ：登记成功后生成的指纹模板字符串
+m_UserNameID  ：登记用户的ID号：调用时传进来的参数
+
+
+m_Score	      ：指纹采集质量打分。仅用于参考。
+*/
+resultTemplate.value=m_Template;
+RegeditState.value=m_Decription+"   UserNameID="+m_UserNameID+ "  文件名："+m_FileName+".jgp";
+</SCRIPT>
+
+
+<SCRIPT LANGUAGE='JavaScript' FOR="DriverManager" EVENT="OnEnroll(m_result, m_ResultDecription, m_UserNameID, m_Template)"> 
+<!--消息源型OnEnroll(LONG m_result, LPCTSTR m_ResultDecription, LPCTSTR m_UserNameID, LPCTSTR m_Template); --->
+/*
+功能说明：登记指纹消息,登记成功。
+m_result 返回ID：1对比成功，0对比失败
+m_UserNameID   登记用户的ID号：调用时传进来的参数
+m_Template    ：登记成功后生成的指纹模板字符串
+m_ResultDecription   ：结果描述，与m_ResultIndex 对应的。。
+*/
+resultTemplate.value=m_Template;
+RegeditState.value="当前用户ID是："+m_UserNameID+" "+m_ResultDecription;
+</SCRIPT>
+
+
+
+
+<SCRIPT LANGUAGE='JavaScript' FOR="DriverManager" EVENT="OnFeatureInfo( m_result,  m_Decription)"> 
+<!--消息源型OnFeatureInfo(LONG m_result, BSTR m_Decription); --->
+/*
+功能说明：登记指纹时，显示登记质量。一般一次登记，三次登记采样。操作过程提示。
+m_result 返回ID：
+m_Decription   ：结果描述，与m_ResultIndex 对应的。。
+*/
+document.getElementById('image').src="fingerImage/tempImage.jpg?"+  Date();//变一下图片路径，以便IE刷新。
+RegeditState.value=m_Decription;
+
+</SCRIPT>
+
+<SCRIPT LANGUAGE='JavaScript'>
+
+//*******************************************************************************
+//_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+//处理函数（方法）
+//_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+//*******************************************************************************
+
+
+//关于
+function ShowAbout()
+{
+
+DriverManager.ShowAbout();
+}
+
+//读取银行卡第二磁道
+
+function ReadTrack2()
+{
+   document.all.BankCardNo.value="正在读卡...";
+   document.all.BankCardNo.value=DriverManager.ReadBank2();
+}
+//读取银行卡号；m_TimeOut设置读卡超时单位为秒
+function ReadBankTrack2(m_Timeout)
+{
+   document.all.BankCardNo.value="正在读卡...";
+   DriverManager.ReadBankTrack2(m_Timeout);
+}
+
+function ExitBankCard()
+{
+	DriverManager.ExitBankCard();
+}
+
+function EnableInserCard(m_index)
+{
+DriverManager.EnableInserCard(m_index);
+}
+//读神思读卡器，m_TimeOut超时参数。
+function ReadSSidCard(m_TimeOut)
+{
+document.all.StateResult.value="正在读取身份证信息...";
+document.all.USERNAME.value="";
+document.all.PersonIDNumber.value="";
+document.all.SEX.value="";
+
+DriverManager.ReadSSidCard(m_TimeOut);
+}
+//取消神思读卡器读卡
+function CancelReadPersonIDCard()
+{
+	DriverManager.CancelReadPersonIDCard();
+}
+//打开密码键盘
+function OpenTheKeyBoard(m_TimeOut)
+{
+	DriverManager.OpenTheKeyBoard(m_TimeOut);
+}
+
+//关闭密码键盘
+function CloseTheKeyBoard(m_TimeOut)
+{
+	DriverManager.CloseTheKeyBoard(m_TimeOut);
+}
+
+//打印机打印内容
+function PrintTicket()
+{
+
+	DriverManager.CleanPrint();//打印内容前要清除打印环境
+
+	//LONG L_AddText(LONG m_x1, LONG m_y1, LONG m_FontSize, LPCTSTR m_FontName, LPCTSTR m_PrintText);
+	DriverManager.L_AddText(0,10,12,"黑体","广州力麒智能科公司");
+	DriverManager.L_AddText(0,22,16,"宋体","您办理的业务是：购物");
+	DriverManager.L_AddText(0,38,16,"宋体","金额：3000元整");
+	DriverManager.L_AddText(0,54,16,"宋体","流水号：13998");
+
+	DriverManager.L_AddText(0,70,16,"宋体","打印日期：2014-10-11 14：11");
+
+	DriverManager.L_AddLogo(0,86,"C:\\qqq\\Logo\\baidu.bmp");
+	DriverManager.L_BeginPrint();//执行打印动作
+}
+
+function Enroll()  // 点击开始登记
+{
+  
+   //参数为登记人的ID号
+   DriverManager.L_BeginEnroll(document.all.UserNameID.value);
+   RegeditState.value=("开始登记..");
+
+}
+
+function Identification()
+{
+
+   DriverManager.Identification();
+   RegeditState.value=("等待指纹输入..");
+}
+
+function SetEnableFingerPrint(m_Enable)
+{
+         DriverManager.SetEnableFingerPrint(m_Enable);
+}
+//-->
+</SCRIPT>
+</head>
+
+<body >
+
+		 
+		       
+<object classid="clsid:96CFE04C-A6BC-4B1D-B12A-470ECF590BA3" id="DriverManager" event="DriverManager" width="445" height="50">
+  <param name="_Version" value="65536">
+  <param name="_ExtentX" value="11774">
+  <param name="_ExtentY" value="1323">
+  <param name="_StockProps" value="0">
+</object>
+
+<br>_________________________________________________________________________________________________________<br>
+
+<br>_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+_________________________________________________________________________________________________________<p>
+
+
+<input type=button onclick='ShowAbout()' value="关于...">
+<br>
+
+设备状态<input type="text" name="StateResult" size="137">
+<br>
+
+<INPUT id=button45 type=button value=读银行卡磁道2 name=button45 onclick='ReadTrack2()'>
+
+中国银联读卡器操作演示：
+<br>
+银行卡号：<input type="text" name="BankCardNo" size="67">
+<br>
+
+<INPUT id=button12 type=button value="读银行卡号" name=readBankCardNo onclick='ReadBankTrack2(15)'>
+<br>
+<INPUT id=button45 type=button value="退出银行卡" name=exitcard onclick='ExitBankCard()'>
+<br>
+<INPUT id=button45 type=button value="禁止插卡"  onclick='EnableInserCard(0)'>
+<br>
+<INPUT id=button45 type=button value="允许插卡"  onclick='EnableInserCard(1)'>
+331600039118
+<br>_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+<br>
+<br>
+身份证读卡演示：
+<br>
+<INPUT id=100 type=button value="取身份证信息"  onclick='ReadSSidCard(10)'>
+姓名：<input type="text" name="USERNAME" size="87"><br>
+身份证号:<input type="text" name="PersonIDNumber" size="78"><br>
+性别：<input type="text" name="SEX" size="78"><br>
+<INPUT id=100 type=button value="取消读身份证信息"  onclick='CancelReadPersonIDCard()'>
+<br>
+_________________________________________________________________________________________________________<p>
+
+<br>
+
+<br>
+密码键盘演示：
+<br>
+<INPUT id=100 type=button value="打开键盘"  onclick='OpenTheKeyBoard(30)'>
+<INPUT id=100 type=button value="关闭键盘"  onclick='CloseTheKeyBoard(30)'>
+输入内容：<input type="text" name="KeyBoardInput" size="87"><br>
+<br>
+<br>_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+<br>
+<br>打印机操作与测试
+<INPUT  type=button value="打印小票"  onclick='PrintTicket()'>
+
+<br>_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+<br>
+<br>指纹仪测试区
+<INPUT  type=button value="开始登记"  onclick='Enroll()'>&nbsp;&nbsp;&nbsp;
+<INPUT  type=button value="指纹认证"  onclick='Identification()'>
+<br>
+<INPUT  type=button value="指纹打开"  onclick='SetEnableFingerPrint(1)'>
+<INPUT  type=button value="指纹关闭"  onclick='SetEnableFingerPrint(0)'>
+<br>
+请输入记人的ID号：<Input  type=text value="2014" name="UserNameID" size="27" >
+<br>指纹仪状态:
+<Input  type=text value="...." name="RegeditState" size="67" >
+<br>
+接收到的指纹信息框：</p>
+   <textarea name="resultTemplate" cols="80" rows="15" ></textarea>
+ <p>图像</>
+   <img id="image" name="image" src="fingerImage\tempImage.jpg" width="100" hitht="100"/>
+</body>
+
+</html>

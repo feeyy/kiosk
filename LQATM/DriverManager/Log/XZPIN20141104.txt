@@ -1,0 +1,24 @@
+[2014-11-04 13:34:23.086][DService.exe][7844]---打开键盘仿真---
+[2014-11-04 13:34:23.086][DService.exe][7844]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-11-04 13:34:30.982][DService.exe][7844]---打开键盘仿真---
+[2014-11-04 13:34:30.982][DService.exe][7844]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-11-04 13:34:35.073][DService.exe][7844]---打开键盘仿真---
+[2014-11-04 13:34:35.073][DService.exe][7844]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-11-04 14:19:43.241][DService.exe][7844]---打开键盘仿真---
+[2014-11-04 14:19:43.256][DService.exe][7844]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-11-04 14:19:46.649][DService.exe][7844]---打开键盘仿真---
+[2014-11-04 14:19:46.649][DService.exe][7844]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-11-04 14:20:10.176][DService.exe][7844]---打开键盘仿真---
+[2014-11-04 14:20:10.177][DService.exe][7844]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-11-04 14:22:09.739][DService.exe][7844]---打开键盘仿真---
+[2014-11-04 14:22:09.739][DService.exe][7844]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-11-04 14:22:13.637][DService.exe][7844]---打开键盘仿真---
+[2014-11-04 14:22:13.639][DService.exe][7844]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-11-04 14:22:19.262][DService.exe][7844]---打开键盘仿真---
+[2014-11-04 14:22:19.262][DService.exe][7844]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-11-04 14:22:56.959][DService.exe][7844]---打开键盘仿真---
+[2014-11-04 14:22:56.959][DService.exe][7844]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-11-04 14:23:05.811][DService.exe][7844]---打开键盘仿真---
+[2014-11-04 14:23:05.811][DService.exe][7844]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-11-04 14:44:52.646][DService.exe][7844]---打开键盘仿真---
+[2014-11-04 14:44:52.646][DService.exe][7844]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00

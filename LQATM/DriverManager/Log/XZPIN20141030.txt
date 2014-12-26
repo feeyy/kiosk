@@ -1,0 +1,113 @@
+[2014-10-30 17:35:53.211][DService.exe][8684]---打开串口---
+[2014-10-30 17:35:53.227][DService.exe][8684]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-30 17:35:53.231][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:35:53.231][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-30 17:35:53.258][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:35:53.329][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:35:53.333][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:35:53.360][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:35:55.091][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:35:55.091][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:35:55.119][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:45:56.668][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:45:56.669][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:45:56.696][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:46:10.323][DService.exe][8684]---打开串口---
+[2014-10-30 17:46:10.334][DService.exe][8684]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-30 17:46:10.334][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:46:10.335][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-30 17:46:10.363][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:46:10.441][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:46:10.441][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:46:10.467][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:46:11.717][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:46:11.718][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:46:11.746][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:46:15.412][DService.exe][8684]---打开串口---
+[2014-10-30 17:46:15.425][DService.exe][8684]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-30 17:46:15.425][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:46:15.426][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-30 17:46:15.454][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:46:15.537][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:46:15.537][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:46:15.566][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:46:17.055][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:46:17.056][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:46:17.085][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:48:47.271][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:48:47.271][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:48:47.299][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:48:49.612][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:48:49.613][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:48:49.640][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:49:11.893][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:49:11.894][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:49:11.919][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:49:18.250][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:49:18.251][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:49:18.281][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:50:45.470][DService.exe][8684]---打开串口---
+[2014-10-30 17:50:45.481][DService.exe][8684]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-30 17:50:45.482][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:50:45.482][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-30 17:50:45.509][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:50:45.585][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:50:45.585][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:50:45.614][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:50:46.752][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:50:46.753][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:50:46.782][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:50:52.106][DService.exe][8684]---打开串口---
+[2014-10-30 17:50:52.118][DService.exe][8684]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-30 17:50:52.119][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:50:52.119][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-30 17:50:52.147][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:50:52.226][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:50:52.227][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:50:52.255][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:50:58.126][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:50:58.126][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:50:58.156][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:51:22.575][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:51:22.576][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:51:22.604][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:51:32.077][DService.exe][8684]---打开串口---
+[2014-10-30 17:51:32.087][DService.exe][8684]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-30 17:51:32.087][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:51:32.088][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-30 17:51:32.116][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:51:32.191][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:51:32.192][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:51:32.220][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:51:33.239][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:51:33.239][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:51:33.265][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:51:41.784][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:51:41.785][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:51:41.812][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:51:45.489][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:51:45.490][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:51:45.517][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:52:33.262][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:52:33.263][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:52:33.290][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:55:29.773][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:55:29.774][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:55:29.800][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:55:34.847][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:55:34.847][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:55:34.874][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:58:49.150][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:58:49.150][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:58:49.175][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:59:48.583][DService.exe][8684]---打开串口---
+[2014-10-30 17:59:48.595][DService.exe][8684]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-30 17:59:48.595][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:59:48.595][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-30 17:59:48.625][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:59:48.707][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:59:48.707][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:59:48.736][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-30 17:59:50.231][DService.exe][8684]---打开键盘仿真---
+[2014-10-30 17:59:50.235][DService.exe][8684]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-30 17:59:50.262][DService.exe][8684]SUNSON_UsePlainKeyboard, result = 0x04(成功)

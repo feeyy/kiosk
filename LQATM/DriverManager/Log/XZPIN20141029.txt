@@ -1,0 +1,287 @@
+[2014-10-29 13:43:23.157][DService.exe][7052]---打开键盘仿真---
+[2014-10-29 13:43:23.176][DService.exe][7052]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 13:44:10.647][DService.exe][7052]---打开键盘仿真---
+[2014-10-29 13:44:10.647][DService.exe][7052]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 13:44:12.957][DService.exe][7052]---打开键盘仿真---
+[2014-10-29 13:44:12.957][DService.exe][7052]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 13:44:14.754][DService.exe][7052]---打开键盘仿真---
+[2014-10-29 13:44:14.754][DService.exe][7052]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 13:44:18.619][DService.exe][7052]---打开键盘仿真---
+[2014-10-29 13:44:18.619][DService.exe][7052]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 14:26:43.400][DService.exe][7052]---打开键盘仿真---
+[2014-10-29 14:26:43.423][DService.exe][7052]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 14:27:17.964][DService.exe][7052]---打开键盘仿真---
+[2014-10-29 14:27:17.964][DService.exe][7052]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 14:27:22.106][DService.exe][7052]---打开键盘仿真---
+[2014-10-29 14:27:22.106][DService.exe][7052]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 14:27:25.775][DService.exe][7052]---打开键盘仿真---
+[2014-10-29 14:27:25.775][DService.exe][7052]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 14:27:29.113][DService.exe][7052]---打开键盘仿真---
+[2014-10-29 14:27:29.113][DService.exe][7052]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 14:29:30.015][DService.exe][7052]---打开键盘仿真---
+[2014-10-29 14:29:30.015][DService.exe][7052]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 14:31:08.236][DService.exe][7052]---打开键盘仿真---
+[2014-10-29 14:31:08.237][DService.exe][7052]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 14:31:12.283][DService.exe][7052]---打开键盘仿真---
+[2014-10-29 14:31:12.283][DService.exe][7052]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 14:31:16.155][DService.exe][7052]---打开键盘仿真---
+[2014-10-29 14:31:16.156][DService.exe][7052]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 14:32:42.704][DService.exe][7052]---打开键盘仿真---
+[2014-10-29 14:32:42.705][DService.exe][7052]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 15:09:42.438][DService.exe][7580]---打开串口---
+[2014-10-29 15:09:42.440][DService.exe][7580]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-29 15:09:42.440][DService.exe][7580]---打开键盘仿真---
+[2014-10-29 15:09:42.440][DService.exe][7580]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-29 15:09:42.469][DService.exe][7580]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 15:09:44.627][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:44.627][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 49
+[2014-10-29 15:09:45.231][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:45.231][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 51
+[2014-10-29 15:09:45.831][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:45.831][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:46.147][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:46.149][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:46.596][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:46.596][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:46.879][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:46.879][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:47.141][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:47.141][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:47.422][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:47.422][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:47.690][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:47.690][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:47.958][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:47.958][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:48.237][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:48.237][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:48.520][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:48.520][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:48.522][DService.exe][7580]---打开串口---
+[2014-10-29 15:09:48.534][DService.exe][7580]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-29 15:09:48.534][DService.exe][7580]---打开键盘仿真---
+[2014-10-29 15:09:48.534][DService.exe][7580]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-29 15:09:48.569][DService.exe][7580]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 15:09:49.379][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:49.379][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:49.643][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:49.643][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:49.754][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:49.754][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:50.018][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:50.018][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:50.127][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:50.127][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:50.280][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:50.282][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:50.567][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:50.567][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:50.715][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:50.715][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:50.997][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:50.997][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:51.309][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:51.309][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:09:51.753][DService.exe][7580]---获取按下的按键键值---
+[2014-10-29 15:09:51.753][DService.exe][7580]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 15:10:00.406][DService.exe][7580]---打开键盘仿真---
+[2014-10-29 15:10:00.406][DService.exe][7580]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 15:10:00.421][DService.exe][7580]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 15:12:11.208][DService.exe][7580]---打开键盘仿真---
+[2014-10-29 15:12:11.208][DService.exe][7580]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 15:12:11.239][DService.exe][7580]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 15:13:45.034][DService.exe][7580]---打开键盘仿真---
+[2014-10-29 15:13:45.034][DService.exe][7580]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 15:13:45.061][DService.exe][7580]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 15:14:24.079][DService.exe][7580]---打开键盘仿真---
+[2014-10-29 15:14:24.079][DService.exe][7580]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 15:14:24.118][DService.exe][7580]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:40:09.741][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:40:09.750][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:40:16.245][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:40:16.245][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:40:35.633][DService.exe][5936]---打开串口---
+[2014-10-29 17:40:35.635][DService.exe][5936]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-29 17:40:35.635][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:40:35.635][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-29 17:40:35.665][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:40:35.737][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:40:35.739][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:40:35.768][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:42:05.237][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:42:05.239][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:42:05.266][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:48:30.982][DService.exe][5936]---打开串口---
+[2014-10-29 17:48:30.998][DService.exe][5936]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-29 17:48:30.999][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:48:31.000][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-29 17:48:31.027][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:48:31.110][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:48:31.111][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:48:31.139][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:48:58.039][DService.exe][5936]---打开串口---
+[2014-10-29 17:48:58.050][DService.exe][5936]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-29 17:48:58.050][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:48:58.051][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-29 17:48:58.079][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:49:00.578][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:49:00.578][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 49
+[2014-10-29 17:49:01.019][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:49:01.019][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 17:49:01.772][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:49:01.772][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 51
+[2014-10-29 17:49:02.236][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:49:02.237][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 52
+[2014-10-29 17:49:02.568][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:49:02.569][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 53
+[2014-10-29 17:49:02.901][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:49:02.902][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 54
+[2014-10-29 17:49:03.007][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:49:03.008][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:49:03.036][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:49:25.515][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:49:25.515][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:49:25.543][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:50:14.229][DService.exe][5936]---打开串口---
+[2014-10-29 17:50:14.240][DService.exe][5936]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-29 17:50:14.241][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:50:14.241][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-29 17:50:14.269][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:50:14.343][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:50:14.344][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:50:14.374][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:50:17.622][DService.exe][5936]---打开串口---
+[2014-10-29 17:50:17.632][DService.exe][5936]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-29 17:50:17.632][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:50:17.633][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-29 17:50:17.660][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:50:19.755][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:50:19.755][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 49
+[2014-10-29 17:50:20.208][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:50:20.209][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 17:50:20.521][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:50:20.522][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 51
+[2014-10-29 17:50:21.330][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:50:21.331][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 52
+[2014-10-29 17:50:21.796][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:50:21.796][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 53
+[2014-10-29 17:50:22.083][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:50:22.083][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 54
+[2014-10-29 17:50:22.191][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:50:22.191][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:50:22.220][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:50:37.963][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:50:37.963][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:50:37.992][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:52:07.605][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:52:07.606][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:52:07.633][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:52:19.654][DService.exe][5936]---打开串口---
+[2014-10-29 17:52:19.666][DService.exe][5936]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-29 17:52:19.666][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:52:19.666][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-29 17:52:19.695][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:52:19.773][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:52:19.774][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:52:19.803][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:52:22.396][DService.exe][5936]---打开串口---
+[2014-10-29 17:52:22.407][DService.exe][5936]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-29 17:52:22.407][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:52:22.408][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-29 17:52:22.434][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:52:24.380][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:52:24.380][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 49
+[2014-10-29 17:52:24.658][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:52:24.658][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 17:52:24.948][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:52:24.949][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 51
+[2014-10-29 17:52:25.734][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:52:25.734][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 52
+[2014-10-29 17:52:25.933][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:52:25.933][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 53
+[2014-10-29 17:52:26.361][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:52:26.361][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 54
+[2014-10-29 17:52:26.466][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:52:26.467][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:52:26.495][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:52:48.063][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:52:48.063][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:52:48.091][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:53:09.470][DService.exe][5936]---打开串口---
+[2014-10-29 17:53:09.481][DService.exe][5936]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-29 17:53:09.481][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:53:09.482][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-29 17:53:09.508][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:53:09.591][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:53:09.591][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:53:09.621][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:54:10.689][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:54:10.690][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:54:10.717][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:54:28.081][DService.exe][5936]---打开串口---
+[2014-10-29 17:54:28.091][DService.exe][5936]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-29 17:54:28.091][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:54:28.092][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-29 17:54:28.121][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:54:28.198][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:54:28.199][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:54:28.225][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:55:08.246][DService.exe][5936]---打开串口---
+[2014-10-29 17:55:08.257][DService.exe][5936]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-29 17:55:08.257][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:55:08.258][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-29 17:55:08.287][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:55:10.546][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:55:10.546][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 49
+[2014-10-29 17:55:10.839][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:55:10.840][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 50
+[2014-10-29 17:55:11.153][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:55:11.154][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 51
+[2014-10-29 17:55:11.579][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:55:11.579][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 52
+[2014-10-29 17:55:11.844][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:55:11.844][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 53
+[2014-10-29 17:55:12.138][DService.exe][5936]---获取按下的按键键值---
+[2014-10-29 17:55:12.138][DService.exe][5936]SUNSON_ScanKeyPress success, ucKeyValue = 54
+[2014-10-29 17:55:12.245][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:55:12.245][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:55:12.274][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:55:25.903][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:55:25.904][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:55:25.932][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:55:32.153][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:55:32.154][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:55:32.180][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:55:34.548][DService.exe][5936]---打开串口---
+[2014-10-29 17:55:34.560][DService.exe][5936]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-29 17:55:34.560][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:55:34.561][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-29 17:55:34.588][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:55:34.667][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:55:34.668][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:55:34.697][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:55:37.586][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:55:37.587][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:55:37.614][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:55:40.362][DService.exe][5936]---打开串口---
+[2014-10-29 17:55:40.374][DService.exe][5936]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-29 17:55:40.374][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:55:40.375][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-29 17:55:40.403][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:55:40.482][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:55:40.483][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:55:40.511][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:55:41.563][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:55:41.564][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:55:41.592][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:55:47.988][DService.exe][5936]---打开串口---
+[2014-10-29 17:55:48.000][DService.exe][5936]OpenCom nPort = 4,nBaud = 9600,success
+[2014-10-29 17:55:48.000][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:55:48.000][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2014-10-29 17:55:48.026][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:55:48.100][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:55:48.101][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:55:48.130][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2014-10-29 17:55:49.066][DService.exe][5936]---打开键盘仿真---
+[2014-10-29 17:55:49.067][DService.exe][5936]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2014-10-29 17:55:49.092][DService.exe][5936]SUNSON_UsePlainKeyboard, result = 0x04(成功)
