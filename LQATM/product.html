@@ -1,0 +1,191 @@
+﻿<!doctype html>
+<!--产品选择模块 -->
+<!--开发者：陈劲全（QQ:820094076） 最后编辑时间：2014-10-11 -->
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>LQATM notools</title>
+<link rel="stylesheet" href="css/idangerous.swiper.css">
+<link rel="stylesheet" href="css/idangerous.swiper.scrollbar.css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<!--<script src="jquery.params.js" type="text/javascript"> 
+</script>-->
+<script src="js/product.js" type="text/javascript">
+</script>
+</head>
+
+<body>
+<div class="quyu"> 
+  
+  <!--状态 -->
+  <div id="zhuangtai">
+    <div style="float:left; margin-left:20px;"> 登录状态：已登录 | 用户识别号：<span id="sfz" style="font-size:12px"></span> | 姓名：<span style="font-size:12px" id="sname"></span> </div>
+    <div style="float:right; margin-right:0px;">
+      <div style="width:120px; height:40px; line-height:40px; font-size:18px; border-radius: 20px;" id="logout" class="btn">退出登录</div>
+    </div>
+  </div>
+  
+ 
+      
+  <!--产品选择 -->
+  <div id="product">
+  
+   <div id="pchoose">选择产品类型</div>
+      <div id="pchooselist">
+    <div style=" position:relative; z-index:99;top:0px; left:0px; width:100%; height:40px; line-height:40px; background:#FFF; opacity:0.8; text-align:center; font-weight:bold; font-size:15px;">选择产品类型</div>
+      <div class="swiper-pchooselist">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+          
+         <div class="plist"><a href="javascript:showpro();" ><img src="images/iphone6.jpg" width="180" height="180" border="0"></a><br>数码产品</div>
+         <div class="plist"><a href="#" ><img src="images/dianqi.jpg" width="180" height="180" border="0"></a><br>家用电器</div>
+         <div class="plist"><a href="#" ><img src="images/shushi.jpg" width="180" height="180" border="0"></a><br>各类熟食</div>
+         <div class="plist"><a href="#" ><img src="images/lingshi.jpg" width="180" height="180" border="0"></a><br>进口零食</div>
+         <div class="plist"><a href="#" ><img src="images/yongpin.jpg" width="180" height="180" border="0"></a><br>生活用品</div>
+         <div class="plist"><a href="#" ><img src="images/ertong.jpg" width="180" height="180" border="0"></a><br>儿童用品</div>
+         <div class="plist"><a href="#" ><img src="images/yinxiang.jpg" width="180" height="180" border="0"></a><br>图书音像</div>
+         
+         
+        
+         
+          
+          </div>
+          </div>
+            <div class="scrollbar-pchooselist"></div>
+          </div>
+     
+      </div>
+
+      <div class="swiper-container swiper-parent">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+          <div class="pro"><a href="javascript:showpro();" ><img src="images/iphone6.jpg" width="215" height="215" border="0"></a><br>iphone6<br><span class="jiage">¥5999</span></div>
+            <div class="pro"><img src="images/sx.jpg" width="215" height="215" border="0"><br>三星S5<br><span class="jiage">¥----</span></div>
+            <div class="pro"><img src="images/lx.jpg" width="215" height="215"><br>联想K920<br><span class="jiage">¥----</span></div>
+            <div class="pro"><img src="images/hw.jpg" width="215" height="215"><br>华为P7<br><span class="jiage">¥----</span></div>
+            <div class="pro"><img src="images/xm.jpg" width="215" height="215"><br>小米4<br><span class="jiage">¥----</span></div>
+            <div class="pro"><img src="images/htc.jpg" width="215" height="215"><br>htcM8<br><span class="jiage">¥----</span></div>
+            <div class="pro"><img src="images/mz.jpg" width="215" height="215"><br>魅族MX4<br><span class="jiage">¥----</span></div>
+            <div class="pro"><img src="images/zx.jpg" width="215" height="215"><br>中兴红牛<br><span class="jiage">¥----</span></div>
+            </div>
+          
+          <div class="swiper-slide">
+          <div class="pro"><a href="javascript:showpro();" ><img src="images/iphone6.jpg" width="215" height="215" border="0"></a><br>iphone6<br><span class="jiage">¥5999</span></div>
+            <div class="pro"><img src="images/sx.jpg" width="215" height="215" border="0"><br>三星S5<br><span class="jiage">¥----</span></div>
+            <div class="pro"><img src="images/lx.jpg" width="215" height="215"><br>联想K920<br><span class="jiage">¥----</span></div>
+            <div class="pro"><img src="images/hw.jpg" width="215" height="215"><br>华为P7<br><span class="jiage">¥----</span></div>
+            <div class="pro"><img src="images/xm.jpg" width="215" height="215"><br>小米4<br><span class="jiage">¥----</span></div>
+            <div class="pro"><img src="images/htc.jpg" width="215" height="215"><br>htcM8<br><span class="jiage">¥----</span></div>
+            <div class="pro"><img src="images/mz.jpg" width="215" height="215"><br>魅族MX4<br><span class="jiage">¥----</span></div>
+            <div class="pro"><img src="images/zx.jpg" width="215" height="215"><br>中兴红牛<br><span class="jiage">¥----</span></div>
+            </div>
+          
+        </div>
+      </div>
+      <div class="pagination-parent"></div>
+      <a class="arrow-left" href="#"></a>
+      <a class="arrow-right" href="#"></a>
+   
+    
+  </div>
+  
+  <!--产品详细 -->
+  <div id="proinfoid">
+    <div id="proinfotitle">iphone6产品介绍</div>
+    <div id="proinfo">
+      <div style="clear:both;"> 
+        <!--产品图片 -->
+        <div style="float:left; width:370px; margin-right:10px; height:370px; overflow:hidden;"><img src="images/iphone6-1.jpg" width="370" height="370" border="0"></div>
+        <div style="float:left; width:370px; height:370px; overflow:hidden; border-left:#999 dashed 1px;"> 
+          <!--产品参数 -->
+          <div style="float:left; width:370px;  height:180px; overflow:auto; ">
+            <table width="100%" border="0" cellspacing="2" cellpadding="2">
+              <tr>
+                <td>产品名称：苹果 iPhone 6</td>
+                <td>品牌: Apple/苹果</td>
+              </tr>
+              <tr>
+                <td>上市时间: 2014年</td>
+                <td>网络类型:<br>
+                  TD-LTE/FDD-LTE/TDS/WCDMA/GSM</td>
+              </tr>
+              <tr>
+                <td>尺寸: 4.7英寸</td>
+                <td>机身颜色: 白色 黑色 黄色</td>
+              </tr>
+              <tr>
+                <td>后置摄像头: 800万</td>
+                <td>操作系统: iOS</td>
+              </tr>
+              <tr>
+                <td>运行内存RAM: 2GB</td>
+                <td>机身内存: 16GB 64GB 128GB</td>
+              </tr>
+              <tr>
+                <td>厚度: 9mm以下</td>
+                <td>分辨率: 1334×750</td>
+              </tr>
+            </table>
+          </div>
+          <!--支付金额 -->
+          <div style="clear:both; padding:5px; margin-top:25px;float:left; width:90%; color:#999; font-weight:bold;"> 支付金额：<span id="pay" style="color:#F00; font-size:18px; font-weight:bold;">¥10.00</span></div>
+          <div style="clear:both; padding:5px; margin-top:15px; float:left; width:90%; color:#999; font-weight:bold;"> 购买数量：<span id="num" style="color:#F00; font-size:18px; font-weight:bold;">1</span></div>
+          <div style="font-size:24px; clear:both; padding:5px; margin-top:5px; float:left; width:90%;"> 
+            <!--数量控制 -->
+            <div style="float:left" class="j" id="j1">+</div>
+            <div style="float:left" class="j" id="j2">-</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--支付按钮 -->
+    <div id="proinfobottom">
+      <div id="pay1" class="btn">现金支付</div>
+      <div id="pay2" class="btn">刷卡支付</div>
+      <div id="pay3" class="btn">返回</div>
+    </div>
+  </div>
+  
+  <!--开始 -->
+  <div id="times"></div>
+</div>
+
+  <script src="js/idangerous.swiper-2.1.min.js"></script>
+  <script src="js/idangerous.swiper.scrollbar-2.1.js"></script>
+    <script>
+  var swiperParent = new Swiper('.swiper-parent',{
+	slidesPerView:1,
+    pagination: '.pagination-parent',
+    loop:false,
+    grabCursor: true,
+    paginationClickable: true,
+	//autoplay:5000,
+	//autoplayStopOnLast:false,
+	mousewheelControl:true
+  });
+  $('.arrow-left').on('click', function(e){
+    e.preventDefault();
+    swiperParent.swipePrev();
+  });
+  $('.arrow-right').on('click', function(e){
+    e.preventDefault();
+    swiperParent.swipeNext();
+  });
+
+var mySwiper = new Swiper('.swiper-pchooselist', {
+	//slidesPerView:1,
+    scrollContainer:true,
+    mousewheelControl : true,
+    mode:'vertical',
+    //Enable Scrollbar
+    scrollbar: {
+      container :'.scrollbar-pchooselist',
+      hide: true,
+      draggable: false  
+    }
+  })
+  </script>
+</body>
+</html>
